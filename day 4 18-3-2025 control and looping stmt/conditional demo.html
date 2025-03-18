@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditiiiional statemeent</title>
+</head>
+<body>
+    <script>
+
+        // WAP to check number is zero or not
+        /*
+        let n=parseInt(prompt("Enter n:"))
+        // Ternery ?:
+        // n===0?document.write(n," is zero number"):document.write(n," is not a zero number")
+
+        if (n===0)
+    {
+        document.write(n, " is a zero number")
+    }
+    else
+    {
+        document.write(n, " is not a zero number")
+    }
+        */
+
+        /*
+    // WAP to find greatest number among any number by using nested if else
+
+        let a=+prompt("enter a:")
+        let b=+prompt("enter b:")
+        let c=+prompt("enter c:")
+
+        if (a>b && a>c)
+        {
+            document.write(a, " is a greatest number")
+        }
+        else
+        {
+            if (b>c)
+                {
+                    document.write(b, " is a greatest number")
+                }
+            else
+                {
+                    document.write(c, " is a greatest number")
+                }
+        }
+            */
+
+        // WAP to show add,sub,mul,div as per choice by using nested if else
+           
+        document.write("1:add<br>2:sub<br>3:mult<br>4:div<br>")
+        let choice= +prompt("Enter the choice:")
+        let a=+prompt("Enter a:")
+        let b=+prompt("Enter b:")
+ /*
+    if (choice===1)
+    {
+        document.write("Addition=",(a+b))
+    }
+    else if (choice===2)
+    {
+        document.write("Sub=",(a-b))
+    }
+    else if (choice===3)
+    {
+        document.write("Mul=",(a*b))
+    }
+    else if (choice===4)
+    {
+        document.write("div=",(a/b))
+    }
+    else
+    {
+        document.write("Enter Correct Choice number")
+    }
+        */
+
+        switch(choice)
+        {
+            case 1:
+                document.write("Addition=",(a+b))
+                break;
+            case 2:
+                document.write("Sub=",(a-b))
+                break;
+            case 3:
+                document.write("Mul=",(a*b))
+                break;
+            case 4:
+                document.write("div=",(a/b))
+                break;
+            default:
+                document.write("Invalid Choice Number")
+                break;
+                
+        }
+
+    </script>
+</body>
+</html>

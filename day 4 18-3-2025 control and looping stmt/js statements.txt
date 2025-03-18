@@ -1,0 +1,22 @@
++-Control Statement
+
+1) Conditional
+1.1) if Statement
+
+if (condition)
+{
+    stmt
+}
+
+1.2) if-else Statement
+
+if (condition)
+{
+    True stmt
+}
+else 
+{
+    False stmt
+}
+
+1.3) 

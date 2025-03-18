@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Demo</title>
+</head>
+<body>
+    <script>
+    /*
+        let empnames=["pooja","joel","rohit","raj"]
+        document.write(empnames,typeof (empnames),"<br>");
+        let a=[]
+        document.write(a, typeof(a),"<br>");
+        a.push("banana")
+        document.write(a, typeof(a),"<br>");
+        empnames.push("MITESH")
+        document.write(empnames,"<br>")
+        a.unshift("musk melon")
+        document.write(a,"<br>")
+        empnames.unshift("jeet")
+        document.write(empnames,"<br>")
+        let x=[]
+        document.write(x,"<br>")
+        x[6]="red"
+        document.write(x,"<br>")
+        x[3]="White"
+        document.write(x,"<br>")
+        document.write(empnames[3],"<br>")
+        empnames.pop()
+        document.write(empnames,"<br>")
+        empnames.shift()
+        document.write(empnames,"<br>")
+        delete empnames[1]
+        document.write(empnames,"<br>")
+        */
+       let colors=new Array()
+       colors[0]="red"
+       colors.push("green")
+       colors.unshift("blue")
+       document.write(colors,"<br>","<br>")
+       for(let i=0;i<colors.length;i++)
+       {
+        document.write(colors[i],"<br>")
+       }
+
+       document.write("<br>")
+       for (let i in colors)
+       {
+        document.write(i,colors[i],"<br>")
+       }
+
+       document.write("<br>")
+       for (let i of colors)
+       {
+        document.write(i,"<br>")
+       }
+
+       document.write("<br>")
+
+       // Traversing array element via forEach
+
+       colors.forEach(i=>{
+        document.write(i,"<br>")
+       })
+    </script>
+</body>
+</html>
