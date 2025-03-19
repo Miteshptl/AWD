@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Demo</title>
+</head>
+<body>
+    <script>
+        let person={
+            name:"Mitesh",
+            age:"21",
+            3:"415313",
+            jobrole:"s/w engineer",
+            salary:"100000",
+            1:"4561411"
+        }
+
+
+        for (let x in person)
+        {
+            document.write(person[x],"<br>")
+        }
+        document.write("<br>")
+        
+        person.city="mumbai"
+        for (let x in person)
+        {
+            document.write(person[x],"<br>")
+        }
+        document.write("<br>")
+        let colors={}
+        colors.first="red"
+        colors.second="green"
+        console.log(colors)
+
+        person.data=function()
+        {
+            return this.name+" "+this.salary
+        }
+        document.write(person.data())
+
+
+    </script>
+</body>
+</html>

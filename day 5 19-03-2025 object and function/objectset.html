@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Set</title>
+</head>
+<body>
+    <script>
+        let data=new Set(["a","b","c","d"])
+        document.write(data, typeof data,"<br>")
+        data.add("grapes")
+        document.write(data,"<br>")
+        for (let x of data)
+    {
+        document.write(x,"<br>")
+    }
+    document.write("<br>")
+
+    let colors=new Set()
+    colors.add("red")
+    colors.add("green")
+    console.log(colors)
+
+
+    let fruits=new Map()
+    fruits.set("orange","orange")
+    fruits.set("grapes","green")
+    console.log(fruits)
+
+
+
+
+    let books=new Map([[1,"py"],[2,"js"],[3,"html"]])
+    console.log(books)
+
+    let d=new Date()
+    document.write(d, typeof(d),"<br>")
+    document.write(d.getDate(),"<br>")
+    document.write("<br>")
+
+    let m=-67
+    document.write(Math.abs(m),"<br>")
+    document.write(Math.random(),"<br>")
+    document.write(Math.floor(Math.random()*101),"<br>")
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Demo</title>
+</head>
+<body>
+    <script>
+        let person={
+            name:"Mitesh",
+            age:"21",
+            city:"mumbai"
+        }
+        // document.write(person,"<br>")
+        // document.write(person["name"])
+        for (let x in person)
+        {
+            document.write(person[x],"<br>")
+        }
+        document.write("<br>")
+        // for (let x of person)
+        // {
+        //     document.write(x)
+        // }
+
+        // person.forEach(x=>{
+        //     document.write(x,"<br>")
+        // })
+
+        // for(let i=0;i<person.length;i++)
+        // {
+        //      console.log(person[i])
+        // }
+    </script>
+</body>
+</html>
